@@ -15,8 +15,11 @@ This project makes use of data from a personal activity monitoring device. This 
 ```{r}
 data <- read.csv("activity.csv", header = TRUE, sep = ",", na.strings = "NA")
 ```
+2 - Looking at a summary for the dataset using “summary” and “str” methods:
 
-
+```{r}
+summary(data)
+```
 ## What is mean total number of steps taken per day?
 
 
